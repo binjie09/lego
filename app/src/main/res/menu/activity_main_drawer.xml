@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_VIP"
+            android:icon="@drawable/vip"
+            android:title="激活会员" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="地图" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/wallet"
+            android:title="钱包" />
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@drawable/shoucang"
+            android:title="我的收藏" />
+    </group>
+
+    <item android:title="社交">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="分享" />
+        </menu>
+    </item>
+
+</menu>
